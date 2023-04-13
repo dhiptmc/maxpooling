@@ -1,0 +1,11 @@
+//
+// File created by:  ncverilog
+// Do not modify this file
+//
+/home/ShanChiYu/UNet/maxpooling_v2/sim/testfixture.sv
+/home/ShanChiYu/UNet/maxpooling_v2/src/maxpooling.sv
++incdir+/home/ShanChiYu/UNet/maxpooling_v2/src
++nc64bit
++access+r
++define+SHM_FILE=\"maxpooling.shm\"
++define+FSDB_FILE=\"maxpooling.fsdb\"

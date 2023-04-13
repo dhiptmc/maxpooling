@@ -1,0 +1,82 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : maxpooling
+Version: T-2022.03
+Date   : Tue Mar 21 20:52:34 2023
+****************************************
+
+Operating Conditions: WCCOM   Library: fsa0m_a_generic_core_ss1p62v125c
+Wire Load Model Mode: enclosed
+
+  Startpoint: CUR_reg_1_ (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: mdata_wr[0]
+            (output port clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  maxpooling         G5K                   fsa0m_a_generic_core_ss1p62v125c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.50       0.50
+  CUR_reg_1_/CK (QDFFS)                    0.00       0.50 r
+  CUR_reg_1_/Q (QDFFS)                     0.43       0.93 f
+  U10004/CO (FA1S)                         0.56       1.48 f
+  U10005/CO (FA1S)                         0.49       1.97 f
+  U10006/CO (FA1S)                         0.49       2.47 f
+  U10007/CO (FA1S)                         0.49       2.96 f
+  U10008/CO (FA1S)                         0.47       3.43 f
+  U7692/O (MAO222S)                        0.45       3.88 f
+  U7708/O (MAO222S)                        0.81       4.69 f
+  U10009/O (INV1S)                         0.62       5.31 r
+  U10015/O (OAI22S)                        0.26       5.57 f
+  U10016/CO (FA1S)                         0.53       6.10 f
+  U10017/CO (FA1S)                         0.49       6.59 f
+  U10018/CO (FA1S)                         0.49       7.08 f
+  U10019/CO (FA1S)                         0.47       7.56 f
+  U7688/O (MAO222S)                        0.45       8.00 f
+  U7705/O (MAO222S)                        0.48       8.48 f
+  U7703/O (MOAI1S)                         0.86       9.34 r
+  U10048/O (INV1S)                         0.65       9.99 f
+  U10057/O (MOAI1S)                        0.55      10.54 f
+  U7681/O (MAO222S)                        0.50      11.04 f
+  U7680/O (MAO222S)                        0.44      11.48 f
+  U7701/O (MAO222S)                        0.43      11.91 f
+  U7700/O (ND2S)                           0.11      12.02 r
+  U10058/O (MOAI1S)                        0.25      12.27 r
+  U7719/O (OA12S)                          0.28      12.55 r
+  U7718/O (MAO222S)                        0.25      12.81 r
+  U7717/O (MAO222S)                        0.75      13.56 r
+  U10091/O (MOAI1S)                        0.31      13.87 f
+  U7679/O (MAO222S)                        0.46      14.33 f
+  U7678/O (MAO222S)                        0.44      14.77 f
+  U7699/O (MAO222S)                        0.43      15.20 f
+  U7710/O (ND2S)                           0.11      15.31 r
+  U10094/O (MOAI1S)                        0.27      15.57 r
+  U7724/O (ND2S)                           0.10      15.67 f
+  U7723/O (MAO222S)                        0.36      16.03 f
+  U7722/O (MAO222S)                        1.04      17.07 f
+  U10100/O (MOAI1)                         1.10      18.17 r
+  mdata_wr[0] (out)                        0.00      18.17 r
+  data arrival time                                  18.17
+
+  clock clk (rise edge)                   20.00      20.00
+  clock network delay (ideal)              0.50      20.50
+  clock uncertainty                       -0.10      20.40
+  output external delay                   -0.50      19.90
+  data required time                                 19.90
+  -----------------------------------------------------------
+  data required time                                 19.90
+  data arrival time                                 -18.17
+  -----------------------------------------------------------
+  slack (MET)                                         1.73
+
+
+1

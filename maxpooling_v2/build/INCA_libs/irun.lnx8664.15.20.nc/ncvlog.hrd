@@ -1,0 +1,10 @@
+//
+// File created by:  ncverilog
+// Do not modify this file
+//
+-INCDIR
+/home/ShanChiYu/UNet/maxpooling_v2/src
+-DEFINE
+SHM_FILE=\"maxpooling.shm\"
+-DEFINE
+FSDB_FILE=\"maxpooling.fsdb\"

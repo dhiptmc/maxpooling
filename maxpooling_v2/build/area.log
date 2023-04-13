@@ -1,0 +1,30 @@
+ 
+****************************************
+Report : area
+Design : maxpooling
+Version: T-2022.03
+Date   : Tue Mar 21 20:52:34 2023
+****************************************
+
+Library(s) Used:
+
+    fsa0m_a_generic_core_ss1p62v125c (File: /usr/cad/CBDK/CBDK018_UMC_Faraday_v1.0/CIC/SynopsysDC/db/fsa0m_a_generic_core_ss1p62v125c.db)
+
+Number of ports:                          168
+Number of nets:                          5421
+Number of cells:                         5285
+Number of combinational cells:           4059
+Number of sequential cells:              1226
+Number of macros/black boxes:               0
+Number of buf/inv:                        306
+Number of references:                      40
+
+Combinational area:              69876.778197
+Buf/Inv area:                     2440.468774
+Noncombinational area:           65692.671703
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (Wire load has zero net area)
+
+Total cell area:                135569.449901
+Total area:                 undefined
+1
